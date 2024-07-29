@@ -1,0 +1,124 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="30px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT APP"
+        android:textColor="#F8F4F4"
+        android:gravity="center"
+        android:textSize="75px"
+        android:layout_margin="10px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your FirstName" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnam"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your Last Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"
+        android:textColor="#F6F1F1"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your College Nname"
+        android:id="@+id/colgnam" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textColor="#FAF7F7"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:textColor="#F6F2F2"
+        android:inputType="date"
+        android:hint="Date of birth0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/coursnam"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your Course Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No."
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#F6F2F2"
+        android:id="@+id/ph"
+        android:hint="Enter your Phone Number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your Email " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addr"
+        android:textColor="#F6F2F2"
+        android:hint="Enter your Address" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F0EDEE"
+        android:layout_margin="10px"
+        android:id="@+id/ddd"
+        android:textColor="#080909"
+        android:padding="20px"
+        android:text="Done"/>
+
+</LinearLayout>
